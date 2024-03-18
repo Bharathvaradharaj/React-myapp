@@ -9,6 +9,7 @@ import Listitems from './listitam';
 import List from './list';
 import Login from './login';
 import Todolist from './Todo';
+import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -23,7 +24,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //     <>
 //     <h1>{myname}</h1>
 //     <button onClick={change}>Change</button>
-    
+
 //     </>
 //  )
 
@@ -31,19 +32,20 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
-<>
-    {/* <Counter/>
-    <Randomnumber/>
-    <br/>
+    <>
+        {/* <Counter />
+        <Randomnumber />
+        <br />
 
-    <FormName/>
+        <FormName />
 
-    <Shoppinglist></Shoppinglist>
-    <Changecolor></Changecolor>
-    <List></List>
-    <Login></Login> */}
-<Todolist></Todolist>
+        <Shoppinglist></Shoppinglist>
+        <Changecolor></Changecolor>
+        <List></List>
+        <Login></Login>
+        <Todolist></Todolist> */}
 
+       <App></App>
     </>
 )
 
